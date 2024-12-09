@@ -1,0 +1,21 @@
+/* Import the base styles from Tailwind */
+@import 'tailwindcss/base';
+
+/* Import the components styles from Tailwind */
+@import 'tailwindcss/components';
+
+/* Import the utilities styles from Tailwind */
+@import 'tailwindcss/utilities';
+
+/* Custom Styles can be added here if needed */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+}
+
+
+@layer base {
+  html {
+    font-family: 'Arial', sans-serif; /* or any other French font style */
+  }
+}
